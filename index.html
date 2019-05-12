@@ -24,7 +24,7 @@
 	.menu {
 		background: #DCDCDC; /*for IE*/
 		background: #F8F8FF;
-		min-width: 940px;
+		min-width: 992px;
 		max-width: 1366px;
 		height: 400px;
 		margin: auto;
@@ -65,14 +65,14 @@
 
 
 
-@media screen and (min-width: 641px) and (max-width: 940px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
 
 	.menu_logo {
 		
 		width: 100%;
-		min-width: 640px;
-		max-width: 940px;
+		min-width: 768px;
+		max-width: 979px;
 
 }
 
@@ -137,7 +137,7 @@
 
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 767px) {
 
 body {
   min-width: 50px;
@@ -147,7 +147,7 @@ body {
     	display: block;
     	width: 100%;	
 		min-width: 50px;
-		max-width: 640px;
+		max-width: 767px;
 		height: 500px;
 		margin: auto;
 }
@@ -189,7 +189,21 @@ body {
 		width: 100%;
 		text-transform: uppercase;
 	}
+}
 
+
+@media screen and (max-width: 480px) {
+    .menu {
+    	display: block;
+    	width: 100%;	
+		min-width: 320px;
+		max-width: 480px;
+		height: 500px;
+		margin: auto;
+		background: red;
+}
+	
+}
 	
 </style>
 <body>
